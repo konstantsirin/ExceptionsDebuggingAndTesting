@@ -1,0 +1,13 @@
+2023-05-19 17:54:36.545 [main] WARN   - ======================================
+2023-05-19 17:54:36.545 [main] WARN   - Передано неверное количество аргуметов
+2023-05-19 17:54:36.546 [main] WARN   - Stack trace
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at CustomerStorage.addCustomer(CustomerStorage.java:25) ~[classes/:?]
+	at Main.main(Main.java:32) ~[classes/:?]
+2023-05-19 17:54:36.553 [main] WARN   - 
+2023-05-19 18:08:09.342 [main] WARN   - ======================================
+2023-05-19 18:08:09.342 [main] WARN   - В хранилище отсутствует пользователь sdad. Удаление невозможно.
+2023-05-19 18:08:09.342 [main] WARN   - Stack trace
+Exception.NotKeyInStorageException: В хранилище отсутствует пользователь sdad. Удаление невозможно.
+	at CustomerStorage.removeCustomer(CustomerStorage.java:56) ~[classes/:?]
+	at Main.main(Main.java:39) ~[classes/:?]
